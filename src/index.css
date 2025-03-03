@@ -5,7 +5,10 @@ body {
   background: #11071f;
   color: white;
 }
-h1 {
+h1,
+h3,
+h4,
+h5 {
   font-family: "Preahvihear", sans-serif;
 }
 h2,
