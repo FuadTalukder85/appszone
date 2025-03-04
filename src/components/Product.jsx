@@ -22,7 +22,7 @@ import img from "../assets/img.png";
 
 const Product = () => {
   return (
-    <div className="max-w-5xl mx-auto mt-20">
+    <div className="md:max-w-5xl mx-auto mt-20 p-3 md:p-0">
       <h1 className="text-2xl text-center">
         I'm currently looking to join a{" "}
         <span className="text-[#A362FF]">cross-functional</span> team

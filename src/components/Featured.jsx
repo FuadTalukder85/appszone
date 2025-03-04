@@ -4,14 +4,16 @@ import featured02 from "../assets/featured02.png";
 import cursor from "../assets/cursor.png";
 const Featured = () => {
   return (
-    <div className="max-w-5xl mx-auto py-20">
-      <div className="flex items-center justify-between">
+    <div className="md:max-w-5xl mx-auto py-20 p-3 md:p-0 mt-48">
+      <div className="md:flex items-center justify-between">
         <div className="-mt-48">
           <p className="text-[#9857D3] font-semibold text-lg">
             Featured Project
           </p>
-          <h2 className="font-semibold text-4xl">Example Project</h2>
-          <div className="absolute pt-8">
+          <h2 className="font-semibold text-3xl md:text-4xl">
+            Example Project
+          </h2>
+          <div className="md:absolute pt-8">
             <p className="z-50 md:w-[640px] p-6 rounded-xl font-medium text-lg bg-[#1e1233c9] backdrop-blur-2xl">
               A web app for visualizing personalized Spotify data. View your top
               artists, top tracks, recently played tracks, and detailed audio
@@ -25,7 +27,7 @@ const Featured = () => {
           </div>
         </div>
         <div
-          className="flex justify-end w-2xl py-20"
+          className="flex justify-end md:w-2xl py-20"
           style={{
             background:
               "radial-gradient(circle at center, rgba(105, 59, 147, 1) 0%,  rgba(50, 15, 133, 0) 60%, rgb(0, 0, 0,0) 60%)",
@@ -38,9 +40,9 @@ const Featured = () => {
         </div>
       </div>
       {/*  */}
-      <div className="flex items-center justify-between">
+      <div className="md:flex items-center justify-between">
         <div
-          className="w-2xl py-20"
+          className="md:w-2xl py-20"
           style={{
             background:
               "radial-gradient(circle at center, rgba(105, 59, 147, 1) 0%,  rgba(50, 15, 133, 0) 60%, rgb(0, 0, 0,0) 60%)",
@@ -51,12 +53,14 @@ const Featured = () => {
             <img src={featured02} alt="" />
           </div>
         </div>
-        <div className="relative -mt-48">
+        <div className="md:relative md:-mt-48">
           <p className="text-end text-[#9857D3] font-semibold text-lg">
             Featured Project
           </p>
-          <h2 className="text-end font-semibold text-4xl">Example Project</h2>
-          <div className="absolute right-0 md:w-[640px] pt-8">
+          <h2 className="text-end font-semibold text-3xl md:text-4xl">
+            Example Project
+          </h2>
+          <div className="md:absolute right-0 md:w-[640px] pt-8">
             <p className="p-6 rounded-xl font-medium text-lg bg-[#1e1233c9] backdrop-blur-2xl">
               A web app for visualizing personalized Spotify data. View your top
               artists, top tracks, recently played tracks, and detailed audio
