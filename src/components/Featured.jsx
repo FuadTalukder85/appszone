@@ -4,7 +4,7 @@ import featured02 from "../assets/featured02.png";
 import cursor from "../assets/cursor.png";
 const Featured = () => {
   return (
-    <div className="max-w-5xl mx-auto pb-20">
+    <div className="max-w-5xl mx-auto py-20">
       <div className="flex items-center justify-between">
         <div className="-mt-48">
           <p className="text-[#9857D3] font-semibold text-lg">
