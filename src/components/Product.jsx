@@ -73,7 +73,7 @@ const Product = () => {
           <img src={product13} alt="" />
         </div>
       </div>
-      <div className="flex justify-center w-[350px] mx-auto">
+      <div className="flex justify-center md:w-[350px] mx-auto">
         <div>
           <img src={line01} alt="" />
         </div>
