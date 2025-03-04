@@ -14,14 +14,16 @@ const About = () => {
             Hello! I Am <span className="text-[#7127BA]">Ibrahim Memon</span>
           </h5>
         </div>
-        <div
-          className="w-[310px] md:w-[350px] h-[310px] md:h-[350px] rounded-full flex items-center justify-center"
-          style={{
-            background:
-              "radial-gradient(circle at center, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.4) 30%, rgb(35, 0, 65) 60%, rgb(0, 0, 0) 85%)",
-          }}
-        >
-          <img src={proImg} alt="" />
+        <div className="flex justify-center">
+          <div
+            className="w-[310px] md:w-[350px] h-[310px] md:h-[350px] rounded-full flex items-center justify-center"
+            style={{
+              background:
+                "radial-gradient(circle at center, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.4) 30%, rgb(35, 0, 65) 60%, rgb(0, 0, 0) 85%)",
+            }}
+          >
+            <img src={proImg} alt="" />
+          </div>
         </div>
         <div>
           <div className="hidden md:flex">
